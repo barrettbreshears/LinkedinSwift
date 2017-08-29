@@ -81,5 +81,9 @@
  */
 + (BOOL)application:(UIApplication* _Nonnull)application openURL:(NSURL* _Nullable)url sourceApplication:(NSString* _Nullable)sourceApplication annotation:(id _Nullable)annotation;
 
+/**
+ *  Clear any open session
+ **/
++ (void)clearSession;
 
 @end
